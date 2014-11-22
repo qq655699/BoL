@@ -1,5 +1,6 @@
-require 'Prodiction'
+if myHero.charName ~= 'Kalista' then return end
 
+require 'Prodiction'
 local PassiveTargets = {}
 
 function OnLoad()
